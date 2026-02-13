@@ -9,7 +9,7 @@ export default function List() {
   const [searchTerm, setSearchTerm] = useState("");
   const [loading, setLoading] = useState(false);
 
-  const backendUrl = "http://localhost:5000/api/news"; // adjust to your backend
+  const backendUrl = "https://ortho-backend-8eqv.onrender.com/api/news"; // adjust to your backend
 
   // Fetch all posts on mount
   useEffect(() => {
