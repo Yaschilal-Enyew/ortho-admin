@@ -17,7 +17,7 @@ import {
 } from "lucide-react";
 
 export default function CourseManagement({ token }) {
-  const apiBase = "http://localhost:5000/api"; 
+  const apiBase = "https://ortho-backend-8eqv.onrender.com/api"; 
 
   const [courses, setCourses] = useState([]);
   const [lessons, setLessons] = useState([]);
