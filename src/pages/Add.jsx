@@ -17,7 +17,7 @@ export default function Add() {
   const [preview, setPreview] = useState(null);
   const [loading, setLoading] = useState(false);
 
-  const backendUrl = "http://localhost:5000/api/news/add";
+  const backendUrl = "https://ortho-backend-8eqv.onrender.com/api/news/add";
 
   const handleChange = (e) =>
     setPost({ ...post, [e.target.name]: e.target.value });
