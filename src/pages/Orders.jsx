@@ -16,7 +16,7 @@ export default function Students() {
   const [searchTerm, setSearchTerm] = useState("");
   const [loading, setLoading] = useState(false);
 
-  const backendUrl = "http://localhost:5000/api/student"; // adjust if needed
+  const backendUrl = "https://ortho-backend-8eqv.onrender.com/api/student"; // adjust if needed
 
   // Fetch students from backend
   useEffect(() => {
